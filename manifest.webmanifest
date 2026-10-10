@@ -1,0 +1,24 @@
+{
+ "name": "Fly MetalTech CRM",
+ "short_name": "FMT CRM",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#ffffff",
+ "theme_color": "#c8202f",
+ "description": "Orders, invoices, packing lists, QC, suppliers & stock for Fly MetalTech Trading Co.",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any maskable"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}
