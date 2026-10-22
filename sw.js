@@ -1,8 +1,8 @@
-// offline cache – version 1.0.2610211757
-const C = 'fmtcrm-1.0.2610211757';
+// offline cache – version 1.0.2610220142
+const C = 'fmtcrm-1.0.2610220142';
 const PC = 'fmtcrm-pdf-6.2.108';   // PDF engine – kept across app updates, only replaced when the engine version changes
 const PDF = ['./pdfjs-6.2.108.min.js', './pdfjs-6.2.108.worker.min.js'];
-const FILES = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
+const FILES = ['./', './index.html', './manifest.webmanifest', './icon2-192.png', './icon2-512.png', './icon2-mask-512.png', './icon2-180.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(C).then(c => c.addAll(FILES))
   .then(() => caches.open(PC)).then(c => Promise.all(PDF.map(f => c.match(f).then(h => h || c.add(f).catch(() => { })))))
   .then(() => self.skipWaiting())); });
