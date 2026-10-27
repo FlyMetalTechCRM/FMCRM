@@ -1,5 +1,5 @@
-// offline cache – version 1.106
-const C = 'fmtcrm-1.106';
+// offline cache – version 1.107
+const C = 'fmtcrm-1.107';
 const PC = 'fmtcrm-pdf-6.2.108';   // PDF engine – kept across app updates, only replaced when the engine version changes
 const PDF = ['./pdfjs-6.2.108.min.js', './pdfjs-6.2.108.worker.min.js'];
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon2-192.png', './icon2-512.png', './icon2-mask-512.png', './icon2-180.png'];
